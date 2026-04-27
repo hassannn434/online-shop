@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Shop</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #f4f4f4;
+        }
+
+        h1 {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            margin: 15px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Online Shopping Store</h1>
+
+<div class="product">
+    <h3>Headphones</h3>
+    <p>Price: ₹999</p>
+    <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+    <h3>Smart Watch</h3>
+    <p>Price: ₹1999</p>
+    <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+    <h3>Backpack</h3>
+    <p>Price: ₹799</p>
+    <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<script>
+function addToCart() {
+    alert("Item added to cart!");
+}
+</script>
+
+</body>
+</html>
